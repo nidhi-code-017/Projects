@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+.vscode/
+
+# This tells Git to ignore system junk files and VS Code settings that shouldn't be on GitHub.
