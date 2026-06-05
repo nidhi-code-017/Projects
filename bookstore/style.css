@@ -10,7 +10,7 @@
 body {
   background-color: #f5f7fb;
   color: #131212;
-  transition: background 0.3s, color 0.3s;
+  transition: transform  0.3s, color 0.3s;
 }
 
 /* NAVBAR */
@@ -22,7 +22,7 @@ body {
   background: rgb(122, 184, 241);
   font-size:medium;
   gap:60px;
-  transition: background 0.3s, color 0.3s;
+  transition: transform 0.3s, color 0.3s;
   
 }
 
@@ -67,7 +67,7 @@ body {
   font-size:14px;
 }
 
-.dark .search-bar input {
+.dark-theme .search-bar input {
   color: white;
     cursor: pointer;
 }
@@ -229,18 +229,18 @@ body {
 }
 
 /* DARK MODE */
-.dark {
+.dark-theme {
   background-color: #121212;
   color: white;
 }
 
-.dark .navbar,
-.dark .book-card,
-.dark .footer {
+.dark-theme .navbar,
+.dark-theme .book-card,
+.dark-theme .footer {
   background: #1e1e1e;
 }
 
-.dark .search-bar {
+.dark-theme .search-bar {
   background: #2a2a2a;
   color: white;
   border: none;
