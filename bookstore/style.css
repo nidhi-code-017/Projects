@@ -8,8 +8,8 @@
 
 /* BODY */
 body {
-  background-color: #faf6f0;
-  color:   #ebe6e3 ;
+  background-color: #faf3e0;
+  color:    #f5e6d3 ;
   font-family: 'Georgia',serif;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 .nav-links a {
   text-decoration: none;
-  color: #ebe6e3;
+  color: #f5e6d3;
   font-weight: 500;
 }
 .search-bar {
@@ -153,7 +153,7 @@ body {
 
 /* BOOK CARD */
 .book-card {
-  background: #e6c8a6;
+  background:#faf6f0 ;
   border-radius: 12px;
   overflow: hidden;
   padding: 10px;
