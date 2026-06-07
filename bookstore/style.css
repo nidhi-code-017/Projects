@@ -126,6 +126,22 @@ body {
   cursor: pointer;
 }
 
+/*welcome*/
+.welcome{
+  background-color: #faf3e0 ;
+  color:#3c2415 ;
+  padding:30px ;
+  text-align: center ;
+  font-weight: bold;
+}
+
+.welcome p{
+  font-size: 20px;
+  color:#7c511fcc;
+  font-weight: 500;
+  margin-top:10px;
+}
+
 /* SECTIONS */
 .section {
   width: 90%;
@@ -199,10 +215,7 @@ color:#1a0f08;
   text-align: center;
   padding: 9px;
   background:#3c2415;
-position:fixed;
-  bottom:0;
-  left:0;
-  width:100%;
+
 }
 
 /* DARK MODE */
